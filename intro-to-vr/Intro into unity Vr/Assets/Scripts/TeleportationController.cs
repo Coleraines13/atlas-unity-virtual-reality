@@ -11,7 +11,7 @@ public class TeleportationController : MonoBehaviour
     private void Update()
     {
         // this adds raycasting logic 
-        if (Input.GetButtonDown("TeleportButton"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Teleport();
         }
