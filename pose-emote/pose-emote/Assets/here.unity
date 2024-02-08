@@ -1068,12 +1068,12 @@ MonoBehaviour:
   GestureDatabaseFile: 
   unityXrPlugin: 0
   mivryCoordinateSystem: 0
-  LeftHand: {fileID: 0}
+  LeftHand: {fileID: 908351627}
   LeftTriggerInput: 
   LeftTriggerInputType: 1
   LeftTriggerValue: 0
   LeftTriggerThreshold: 0.9
-  RightHand: {fileID: 0}
+  RightHand: {fileID: 1554843359}
   RightTriggerInput: 
   RightTriggerInputType: 1
   RightTriggerValue: 0
@@ -1083,7 +1083,19 @@ MonoBehaviour:
   ContinuousGestureSmoothing: 3
   OnGestureCompletion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1208222199
 Transform:
   m_ObjectHideFlags: 0
