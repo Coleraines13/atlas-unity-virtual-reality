@@ -6,7 +6,7 @@ My name is Cole Raines and i am a software developer with a specification in Ar/
 
 Prerequisites
 
-Basic understanding of Unity3D.
+Basic understanding of unity3D.
 
 Familiarity with VR development using platforms like Oculus Rift, HTC Vive, or similar.
 
@@ -30,3 +30,20 @@ Accessibility features
 2. Color Contrast: Ensure sufficient color contrast for UI elements to aid users with color vision deficiencies.
 
 3. Controller Vibration Feedback: Implement controller vibration feedback for better interaction feedback, aiding users with hearing impairments.
+
+Avatar motion and interaction 
+
+1. Text-to-Speech (TTS): Integrate TTS functionality using Unity's Text-to-Speech API or third-party plugins to provide audio descriptions of the VR environment and interactions.
+
+2. Color Contrast: Ensure sufficient color contrast for UI elements by using high-contrast color schemes and avoiding color combinations that may be difficult to distinguish for users with color vision deficiencies.
+
+3. Controller Vibration Feedback: Implement controller vibration feedback for better interaction feedback, especially useful for users with hearing impairments. Utilize Unity's Input System to detect user inputs and trigger controller vibrations accordingly.
+
+
+Physics implementation 
+
+1. Rigidbody Dynamics: Utilize Unity's Rigidbody component to simulate physics interactions within the VR environment. Attach Rigidbody components to interactive objects that require physics simulations.
+
+2. Collision Detection: Implement collision detection using Unity's Collider components to detect interactions between virtual objects and the VR user or other objects within the scene.
+
+3. Force and Torque: Apply forces and torques to objects based on user interactions to create realistic physics simulations. Use Unity's physics API to apply forces dynamically based on user actions, such as grabbing and throwing objects.
