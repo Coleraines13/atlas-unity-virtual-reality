@@ -21,3 +21,12 @@ Setting Up 360-Video
 3. 360-Video Rendering: Apply a 360-degree video shader to ensure proper rendering.
 
 4. Interactivity: Implement user interaction with the video, such as play, pause, and seek functionalities.
+
+
+Accessibility features
+
+1. Text-to-Speech (TTS): Integrate TTS functionality to provide audio descriptions of the VR environment and interactions for visually impaired users.
+
+2. Color Contrast: Ensure sufficient color contrast for UI elements to aid users with color vision deficiencies.
+
+3. Controller Vibration Feedback: Implement controller vibration feedback for better interaction feedback, aiding users with hearing impairments.
