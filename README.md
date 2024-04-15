@@ -47,3 +47,16 @@ Physics implementation
 2. Collision Detection: Implement collision detection using Unity's Collider components to detect interactions between virtual objects and the VR user or other objects within the scene.
 
 3. Force and Torque: Apply forces and torques to objects based on user interactions to create realistic physics simulations. Use Unity's physics API to apply forces dynamically based on user actions, such as grabbing and throwing objects.
+
+
+Emote triggering on user pose
+
+1. Pose Detection: Implement pose detection using VR headset and controller tracking data. Define specific poses or gestures that trigger emote animations.
+
+2. Emote Mapping: Map detected user poses to corresponding emote animations using a predefined mapping system. Define a list of poses and their corresponding emote animations in your code.
+
+3. Emote Playback: Trigger emote animations when the detected pose matches predefined criteria. Use Unity's animation system to play emote animations on the avatar based on detected user poses.
+
+Additional notes
+
+Following this Readme should help you atleast start creating a fully immersive VR experience that incorporates accessibility features, synchronized avatar movement, realistic physics interactions, and dynamic emote triggering based on user poses. This inclusive VR environment ensures an engaging and enjoyable experience for all users, regardless of their abilities or preferences.
